@@ -1,4 +1,3 @@
-export const runtime = "edge";
 import { ArrowLeft, MailCheck } from "lucide-react";
 import { Metadata } from "next";
 import Image from "next/image";

@@ -1,4 +1,3 @@
-export const runtime = "edge";
 import { MediaDetailHero as HeroSection } from "@/components/hero/index";
 import { ContentContainer } from "@/components/layout/content-container";
 import { PageContainer } from "@/components/layout/page-container";

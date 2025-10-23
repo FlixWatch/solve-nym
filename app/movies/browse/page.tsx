@@ -1,4 +1,3 @@
-export const runtime = "edge";
 import { ContentLoader } from "@/components/animated/load-more";
 import { getGenreName } from "@/components/content/genre-helpers";
 import { StaticHero } from "@/components/hero/carousel-static";

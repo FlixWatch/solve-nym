@@ -1,4 +1,3 @@
-export const runtime = "edge";
 import { Genre } from "@/utils/typings";
 import { NextResponse } from "next/server";
 

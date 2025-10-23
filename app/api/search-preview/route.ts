@@ -1,4 +1,3 @@
-export const runtime = "edge";
 import { NextResponse } from "next/server";
 import { getGenreNames } from "@/components/content/genre-helpers";
 import {

@@ -1,4 +1,3 @@
-export const runtime = "edge";
 import { Movie, TmdbResponse, TvShow } from "@/utils/typings";
 import { NextResponse } from "next/server";
 

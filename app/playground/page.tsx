@@ -1,5 +1,5 @@
 "use client";
-export const runtime = "edge";
+
 import { ContentContainer } from "@/components/layout/content-container";
 import { PageContainer } from "@/components/layout/page-container";
 import { CountryBadge, CountryBadgeList } from "@/components/ui/country-badge";

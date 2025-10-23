@@ -1,4 +1,3 @@
-export const runtime = "edge";
 import { auth } from "@/auth";
 import { db, users } from "@/db/schema";
 import { eq } from "drizzle-orm";
@@ -24,15 +23,13 @@ export async function PATCH(request: NextRequest) {
     const validatedData = updateNameSchema.parse(body);
 
     // update the user's name in the database
-    // This will fail in edge, but we are leaving it for now
-    // In a real scenario, we'd use an edge-compatible driver or an API call to a separate service
-    // await db
-    //   .update(users)
-    //   .set({ name: validatedData.name })
-    //   .where(eq(users.id, session.user.id));
+    await db
+      .update(users)
+      .set({ name: validatedData.name })
+      .where(eq(users.id, session.user.id));
 
     return NextResponse.json(
-      { message: "Name updated successfully (simulated)" },
+      { message: "Name updated successfully" },
       { status: 200 },
     );
   } catch (error) {

@@ -11,7 +11,6 @@ import {
 } from "./client-components";
 
 export const dynamic = "force-dynamic";
-export const runtime = 'edge';
 
 export const metadata = {
   title: "Home | NyumatFlix",

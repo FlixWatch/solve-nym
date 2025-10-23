@@ -1,7 +1,7 @@
 import { StaticHero } from "@/components/hero/carousel-static";
 import { ContentContainer } from "@/components/layout/content-container";
 import { LegalPage } from "@/components/layout/legal-page";
-export const dynamic = 'force-static'
+
 export const metadata = {
   title: "Terms of Service - NyumatFlix",
   description: "Terms of Service for NyumatFlix streaming platform",

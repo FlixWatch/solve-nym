@@ -1,4 +1,3 @@
-export const runtime = "edge";
 import { NextRequest } from "next/server";
 import { getMovies } from "@/app/actions";
 import { MovieCategory } from "@/utils/typings";

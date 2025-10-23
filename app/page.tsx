@@ -2,8 +2,6 @@ import { FAQSection } from "@/components/layout/sections/faq";
 import { HeroSection } from "@/components/layout/sections/hero";
 import type { Metadata } from "next";
 
-export const runtime = 'edge';
-
 export const metadata: Metadata = {
   title: "NyumatFlix | Watch Movies and TV Shows",
   description:

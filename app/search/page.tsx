@@ -1,4 +1,3 @@
-export const runtime = "edge";
 import { StaticHero } from "@/components/hero";
 import { ContentContainer } from "@/components/layout/content-container";
 import { SearchPageClient } from "@/components/search/search";

@@ -1,4 +1,3 @@
-export const runtime = 'edge';
 import { MediaCarousel } from "@/components/hero/media-carousel";
 import { PageBackground } from "@/components/layout/page-background";
 import {
