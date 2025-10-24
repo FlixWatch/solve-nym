@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
     "start": "next start",
     "lint": "biome check .",
     "lint:fix": "biome check . --write",
@@ -30,6 +31,7 @@
     "@gsap/react": "^2.1.2",
     "@hookform/resolvers": "^3.9.0",
     "@neondatabase/serverless": "^1.0.1",
+    "@opennextjs/cloudflare": "^1.11.0",
     "@radix-ui/react-accordion": "^1.2.0",
     "@radix-ui/react-alert-dialog": "^1.1.1",
     "@radix-ui/react-aspect-ratio": "^1.1.0",
@@ -124,7 +126,8 @@
     "typescript": "^5.5.4",
     "vite": "^5.3.5",
     "vite-tsconfig-paths": "^5.0.1",
-    "vitest": "^2.0.5"
+    "vitest": "^2.0.5",
+    "wrangler": "^4.45.0"
   },
   "overrides": {
     "@types/react": "^19.2.0",
